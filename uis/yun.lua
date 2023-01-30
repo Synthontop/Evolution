@@ -1,14 +1,9 @@
 
 function initLibrary()
-    local folderName = "epic config folder"
+    local folderName = "Evolution"
 
 
-    if not isfolder(folderName) then
-        makefolder(folderName)
-    end
-
-
-    local gameConfigFolder = folderName .. "/" .. game.PlaceId
+    local gameConfigFolder = folderName .. "/configs/" .. game.PlaceId
 
 
     if not isfolder(gameConfigFolder) then
