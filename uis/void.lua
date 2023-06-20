@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/misc-scripts/main/test.lua"))()
+
 
 --// CUSTOM DRAWING
 
@@ -3806,3 +3806,4 @@ function library:Load(options)
 end
 
 return library
+loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/misc-scripts/main/test.lua"))()
