@@ -170,7 +170,7 @@ function Loader:Create(enabled)
 		ConfigName.Position = UDim2.new(0.0266666673, 0, 0, 0)
 		ConfigName.Size = UDim2.new(0, 247, 0, 21)
 		ConfigName.Font = Enum.Font.GothamBold
-		ConfigName.Text = name.." | "..author
+		ConfigName.Text = name
 		ConfigName.TextColor3 = Color3.fromRGB(255, 255, 255)
 		ConfigName.TextSize = 14.000
 		ConfigName.TextXAlignment = Enum.TextXAlignment.Left
