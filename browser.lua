@@ -139,7 +139,7 @@ function Loader:Create(info)
 	local name = info.Name
 	local author = info.Creator
 	local desc = info.Description
-	local link = info.Link 
+	local callback = info.Callback 
 	
 	local Template = Instance.new("Frame")
 	Template.Name = name
@@ -193,14 +193,7 @@ function Loader:Create(info)
 	TextButton.TextTransparency = 1.000
 	
 	TextButton.MouseButton1Click:Connect(function()
-		local success, decoded = pcall(game:GetService("HttpService").JSONDecode, game:GetService("HttpService"), game:HttpGet(link))
-		if not success then return false, 'decode error' end
-
-		for _, option in next, decoded.objects do
-			if self.Parser[option.type] then
-				task.spawn(function() self.Parser[option.type].Load(option.idx, option) end) -- task.spawn() so the config loading wont get stuck.
-			end
-		end
+		task.spawn(callback)
 	end)
 end
 
