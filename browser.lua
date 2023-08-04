@@ -68,7 +68,7 @@ function Loader:Create(enabled)
 	Browser.Size = UDim2.new(0, 313, 0, 398)
 	dragify(Browser)
 
-	MainCorner.CornerRadius = UDim.new(0, 5)
+	MainCorner.CornerRadius = UDim.new(0, 3)
 	MainCorner.Name = "MainCorner"
 	MainCorner.Parent = Browser
 
@@ -107,7 +107,7 @@ function Loader:Create(enabled)
 	Search.Position = UDim2.new(0.0191693287, 0, 0.0778894499, 0)
 	Search.Size = UDim2.new(0.95846647, 0, -0.0171679966, 30)
 
-	SearchCorner.CornerRadius = UDim.new(0, 5)
+	SearchCorner.CornerRadius = UDim.new(0, 3)
 	SearchCorner.Name = "SearchCorner"
 	SearchCorner.Parent = Search
 
