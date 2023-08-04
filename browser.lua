@@ -38,7 +38,7 @@ function dragify(Frame)
 	end)
 end
 
-function Loader:Create()
+function Loader:Create(enabled)
 	local ConfigBrowser = Instance.new("ScreenGui")
 	local Browser = Instance.new("Frame")
 	local MainCorner = Instance.new("UICorner")
@@ -56,6 +56,7 @@ function Loader:Create()
 	ConfigBrowser.Name = "ConfigBrowser"
 	ConfigBrowser.Parent = game.CoreGui
 	ConfigBrowser.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	ConfigBrowser.Enabled = enabled
 
 	Browser.Name = "Browser"
 	Browser.Parent = ConfigBrowser
