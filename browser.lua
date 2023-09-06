@@ -81,8 +81,9 @@ function Loader:Create(enabled)
 	ConfigHolder.BorderSizePixel = 0
 	ConfigHolder.Position = UDim2.new(0.0191693287, 0, 0.153266326, 0)
 	ConfigHolder.Size = UDim2.new(0, 300, 0, 331)
-	ConfigHolder.ScrollBarThickness = 0
-	ConfigHolder.CanvasSize = UDim2.new(0,0,5,0)
+	ConfigHolder.ScrollBwarThickness = 0
+	ConfigHolder.CanvasSize = UDim2.new(0,0,1,0)
+    ConfigHolder.AutomaticCanvasSize = Enum.AutomaticSize.XY
 
 	UIListLayout.Parent = ConfigHolder
 	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
