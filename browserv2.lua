@@ -86,7 +86,7 @@ function Loader:Create(enabled)
 		local LoadButton = Instance.new("TextButton")
 
 		Config.Name = name
-		Config.Parent = game.StarterGui.ConfigBrowser.Main.Configs
+		Config.Parent = Configs
 		Config.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		Config.BackgroundTransparency = 1.000
 		Config.BorderColor3 = Color3.fromRGB(0, 0, 0)
