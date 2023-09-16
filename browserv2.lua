@@ -41,7 +41,7 @@ function Loader:Create(enabled)
 	Configs.AutomaticCanvasSize = Enum.AutomaticSize.XY
 
 	UIListLayout.Parent = Configs
-	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	UIListLayout.SortOrder = Enum.SortOrder.Name
 	UIListLayout.Padding = UDim.new(0, 2)
 
 	Title.Name = "Title"
