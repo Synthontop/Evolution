@@ -42,11 +42,17 @@
       "Creator": "xz",
       "Description": "custom prediction"
     },
-      {
+    {
       "Name":"xz semi legit",
       "Link": "https://pastebin.com/raw/sFYGaepB",
       "Creator": "xz",
       "Description": "high ping camlock/silent aim config"
+    },
+      {
+      "Name":"blatant RAGE",
+      "Link": "https://pastebin.com/raw/9N572gq8",
+      "Creator": "xz",
+      "Description": "good for 30-80 if higher set to v2 auto prediction"
     }
   ]
 }
