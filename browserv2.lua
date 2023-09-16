@@ -17,7 +17,6 @@ function Loader:Create(enabled)
 	Main.Name = "Main"
 	Main.Parent = ConfigBrowser
 	Main.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-	Main.BackgroundTransparency = 0.300
 	Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Main.BorderSizePixel = 0
 	Main.Position = UDim2.new(0.358593762, 0, 0.191933244, 0)
@@ -132,8 +131,7 @@ function Loader:Create(enabled)
 
 			Confirm.Name = "Confirm"
 			Confirm.Parent = Main
-			Confirm.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-			Confirm.BackgroundTransparency = 0.300
+			Confirm.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 			Confirm.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Confirm.BorderSizePixel = 0
 			Confirm.Position = UDim2.new(0.132964164, 0, 0.320541769, 0)
