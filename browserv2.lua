@@ -145,7 +145,7 @@ function Loader:Create(enabled)
 			ConfigTitle.BorderSizePixel = 0
 			ConfigTitle.Position = UDim2.new(0, 0, 5.83138444e-07, 0)
 			ConfigTitle.Size = UDim2.new(0, 264, 0, 37)
-			ConfigTitle.Font = Enum.Font.Unknown
+			ConfigTitle.Font = Enum.Font.Code
 			ConfigTitle.Text = name
 			ConfigTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 			ConfigTitle.TextSize = 18.000
