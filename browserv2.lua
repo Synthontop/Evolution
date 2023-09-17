@@ -21,7 +21,7 @@ function Loader:Create(enabled)
 	Main.BorderSizePixel = 0
 	Main.Position = UDim2.new(0.358593762, 0, 0.191933244, 0)
 	Main.Size = UDim2.new(0, 361, 0, 443)
-	Main.Transparecy = 0.3
+	Main.BackgroundTransparency = 0.3
 	Main.Active = true
 	Main.Draggable = true
 
@@ -102,7 +102,7 @@ function Loader:Create(enabled)
 		Config_Name.Position = UDim2.new(0.0246007182, 0, 0, 0)
 		Config_Name.Size = UDim2.new(0, 300, 0, 27)
 		Config_Name.Font = Enum.Font.Code
-		Config_Name.Text = name
+		Config_Name.Text = name..
 		Config_Name.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Config_Name.TextSize = 14.000
 		Config_Name.TextStrokeTransparency = 0.000
@@ -133,7 +133,7 @@ function Loader:Create(enabled)
 			Confirm.Name = "Confirm"
 			Confirm.Parent = Main
 			Confirm.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-			Confirm.Transparecy = 0.1
+			Confirm.BackgroundTransparency = 0.1
 			Confirm.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Confirm.BorderSizePixel = 0
 			Confirm.Position = UDim2.new(0.132964164, 0, 0.320541769, 0)
