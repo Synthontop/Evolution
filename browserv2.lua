@@ -217,6 +217,7 @@ function Loader:Create(enabled)
 
 			LoadButton2.MouseButton1Click:Connect(function()
 				task.spawn(callback)
+				Confirm:Destroy()
 			end)
 		end)
 	end
