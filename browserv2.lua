@@ -102,7 +102,7 @@ function Loader:Create(enabled)
 		Config_Name.Position = UDim2.new(0.0246007182, 0, 0, 0)
 		Config_Name.Size = UDim2.new(0, 300, 0, 27)
 		Config_Name.Font = Enum.Font.Code
-		Config_Name.Text = name..
+		Config_Name.Text = name
 		Config_Name.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Config_Name.TextSize = 14.000
 		Config_Name.TextStrokeTransparency = 0.000
