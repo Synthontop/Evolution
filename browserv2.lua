@@ -21,6 +21,7 @@ function Loader:Create(enabled)
 	Main.BorderSizePixel = 0
 	Main.Position = UDim2.new(0.358593762, 0, 0.191933244, 0)
 	Main.Size = UDim2.new(0, 361, 0, 443)
+	Main.Transparecy = 0.3
 	Main.Active = true
 	Main.Draggable = true
 
@@ -131,7 +132,8 @@ function Loader:Create(enabled)
 
 			Confirm.Name = "Confirm"
 			Confirm.Parent = Main
-			Confirm.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+			Confirm.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+			Confirm.Transparecy = 0.1
 			Confirm.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Confirm.BorderSizePixel = 0
 			Confirm.Position = UDim2.new(0.132964164, 0, 0.320541769, 0)
