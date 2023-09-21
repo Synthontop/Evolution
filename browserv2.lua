@@ -216,7 +216,7 @@ function Loader:Create(enabled)
 			CancelButton.TextStrokeTransparency = 0.000
 
 			SaveConfig.Name = "SaveConfig"
-			SaveConfig.Parent = game.StarterGui.ConfigBrowser.Main.Confirm
+			SaveConfig.Parent = Confirm
 			SaveConfig.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			SaveConfig.BackgroundTransparency = 1.000
 			SaveConfig.BorderColor3 = Color3.fromRGB(0, 0, 0)
