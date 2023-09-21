@@ -80,6 +80,7 @@ function Loader:Create(enabled)
 		local creator = info.Creator
 		local desc = info.Description
 		local callback = info.Callback 
+		local save_callback = info.SaveCallback
 
 		local Config = Instance.new("Frame")
 		local Config_Name = Instance.new("TextLabel")
@@ -129,6 +130,7 @@ function Loader:Create(enabled)
 			local ConfigCreator = Instance.new("TextLabel")
 			local LoadButton2 = Instance.new("TextButton")
 			local CancelButton = Instance.new("TextButton")
+			local SaveConfig = Instance.new("ImageButton")
 
 			Confirm.Name = "Confirm"
 			Confirm.Parent = Main
@@ -212,6 +214,20 @@ function Loader:Create(enabled)
 			CancelButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 			CancelButton.TextSize = 14.000
 			CancelButton.TextStrokeTransparency = 0.000
+
+			SaveConfig.Name = "SaveConfig"
+			SaveConfig.Parent = game.StarterGui.ConfigBrowser.Main.Confirm
+			SaveConfig.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			SaveConfig.BackgroundTransparency = 1.000
+			SaveConfig.BorderColor3 = Color3.fromRGB(0, 0, 0)
+			SaveConfig.BorderSizePixel = 0
+			SaveConfig.Position = UDim2.new(0.918269515, 0, 0.700600982, 0)
+			SaveConfig.Size = UDim2.new(0, 14, 0, 14)
+			SaveConfig.Image = "rbxassetid://10723344088"
+
+			SaveConfig.MouseButton1Click:Connect(function()
+				task.spawn(save_callback)
+			end)
 
 			CancelButton.MouseButton1Click:Connect(function()
 				Confirm:Destroy()
