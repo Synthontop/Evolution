@@ -95,6 +95,12 @@
       "Link": "https://pastebin.com/raw/yusb4zxc",
       "Creator": "xz",
       "Description": "Semi-legit kinda looks blatant but uses silent and cool fov"
+    },
+    {
+      "Name":"Disable Everything",
+      "Link": "https://pastebin.com/raw/RjXciHwA",
+      "Creator": "xz",
+      "Description": "sets everything to false if u wanna make a new config from scratch ig"
     }
   ]
 }
