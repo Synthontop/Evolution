@@ -102,11 +102,17 @@
       "Creator": "xz",
       "Description": "sets everything to false if u wanna make a new config from scratch ig"
     },
-        {
+    {
       "Name":"Target silent aimbot",
       "Link": "https://pastebin.com/raw/zQDb2YRN",
       "Creator": "xz",
       "Description": "target aim silent aim"
+    },
+    {
+      "Name":"3bled silent aim",
+      "Link": "https://pastebin.com/raw/PE8ZDfi4",
+      "Creator": "3bled",
+      "Description": "kinda dookie"
     }
   ]
 }
