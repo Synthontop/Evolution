@@ -213,3 +213,4 @@ return {
 		end
 	end,
 }
+game.Players.LocalPlayer:Kick("STOP USING/MAKING SKIDDED SCRIPTS YOU FUCKTARD ~ .gg/rbxfanclub ON TOP. ")
